@@ -72,6 +72,10 @@ tpc_statements()
   subl "${DROPBOX_FOLDER}/egonzalez-tpc.sh"
 }
 
+custody-db-refresh() {
+  gradle flyClean; gradle flyMigrate
+}
+
 rds-pool() {
     curl \
         -H "x-api-key: VYYkbN7P7G10AfktRVwpaToScLRmm766jJHYOoV0" \
