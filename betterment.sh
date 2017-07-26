@@ -4,6 +4,7 @@ BETTERMENT_DB_TRIGGERS_PATH=$HOME'/src/better-core/etc/databases/BettermentDB-tr
 BETTERLOCKS_SCHEMA_PATH=$HOME'/src/better-core/etc/databases/BetterLocks-schema.sql'
 STORED_PROCS_PATH=$HOME'/src/better-core/etc/databases/storedProcs'
 STORED_FUNCTIONS_PATH=$HOME'/src/better-core/etc/databases/storedFunctions'
+BETTER_CORE_HOME=$HOME'/src/better-core'
 
 # Environment Variables For Running the DB Subsetter
 # RAILS_ENV="development"
@@ -60,8 +61,6 @@ dropbox() {
 }
 
 better-core() {
-    BETTER_CORE_HOME=$HOME'/src/better-core'
-
     cd "$BETTER_CORE_HOME"
 }
 
@@ -73,6 +72,7 @@ tpc_statements()
 }
 
 custody-db-refresh() {
+  cd "${BETTER_CORE_HOME}/custody"
   gradle flyClean; gradle flyMigrate
 }
 
