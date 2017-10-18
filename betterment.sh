@@ -76,6 +76,19 @@ custody-db-refresh() {
   gradle flyClean; gradle flyMigrate
 }
 
+pm-db-refresh() {
+  cd "${BETTER_CORE_HOME}/portfolio-management"
+  gradle flyClean; gradle flyMigrate 
+}
+
+ssh-pm-sharded-prod() {
+  WALUIGI_ID=$1
+  NUM_SHARDS=$2
+
+  SHARD_ID=`echo "$WALUIGI_ID % $NUM_SHARDS" | bc`
+  bssh $(bip batch prod -t Process:Sharded -t ShardId:$SHARD_ID)
+}
+
 rds-pool() {
     curl \
         -H "x-api-key: VYYkbN7P7G10AfktRVwpaToScLRmm766jJHYOoV0" \
