@@ -1,0 +1,21 @@
+
+[hub]
+protocol = https
+
+[core]
+	editor = subl
+[user]
+	email = erick@betterment.com
+	name = Erick Gonzalez
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+	unstage = reset HEAD --
+[push]
+	default = upstream
