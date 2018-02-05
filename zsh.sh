@@ -1,8 +1,13 @@
 source "$HOME/.bashrc"
 source "$HOME/.dotfiles/powerlevel9k.sh"
 source "$HOME/.dotfiles/betterment.sh"
+
+export PATH="/usr/local/sbin:$PATH"
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+export LDFLAGS=-L/usr/local/opt/openssl/lib
+export CPPFLAGS=-I/usr/local/opt/openssl/include
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/erickgonzalez/.oh-my-zsh
