@@ -1,0 +1,38 @@
+<application>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="EvaluateExpression@DebuggerToolbar" count="39" />
+      <entry action="MTContrastAction@MainToolbar" count="8" />
+      <entry action="MaterialTheme.Accents@MainToolbar" count="18" />
+      <entry action="MaterialTheme.Components@MainToolbar" count="10" />
+      <entry action="MaterialTheme.Panels@MainToolbar" count="34" />
+      <entry action="MaterialTheme.ThemeChooser@MainToolbar" count="32" />
+      <entry action="MaterialTheme@MainToolbar" count="8" />
+      <entry action="Pause@DebuggerToolbar" count="1" />
+      <entry action="Rerun@DebuggerToolbar" count="1" />
+      <entry action="Resume@DebuggerToolbar" count="100" />
+      <entry action="ShowProjectStructureSettings@MainToolbar" count="5" />
+      <entry action="Stop@DebuggerToolbar" count="422" />
+      <entry action="Stop@RunnerToolbar" count="74" />
+      <entry action="ViewBreakpoints@DebuggerToolbar" count="3" />
+      <entry action="com.intellij.diff.merge.TextMergeViewer$MyThreesideViewer$ApplyNonConflictsAction@DiffToolbar" count="17" />
+      <entry action="com.intellij.execution.configurations.CommandLineState$PauseOutputAction@RunnerToolbar" count="1" />
+      <entry action="com.intellij.execution.impl.DefaultJavaProgramRunner$ControlBreakAction@RunnerToolbar" count="3" />
+      <entry action="com.intellij.execution.ui.layout.actions.RestoreViewAction@DebuggerToolbar" count="1" />
+      <entry action="com.intellij.find.SearchTextArea$ClearAction@unknown" count="2" />
+      <entry action="com.intellij.find.editorHeaderActions.NextOccurrenceAction@EditorToolbar" count="2" />
+      <entry action="com.intellij.find.editorHeaderActions.PrevOccurrenceAction@EditorToolbar" count="11" />
+      <entry action="com.intellij.find.impl.FindPopupPanel$MySelectScopeToggleAction@EditorToolbar" count="8" />
+      <entry action="com.intellij.ide.actions.CollapseAllToolbarAction@TestTreeViewToolbar" count="1" />
+      <entry action="com.intellij.ide.actions.ExpandAllToolbarAction@TestTreeViewToolbar" count="1" />
+      <entry action="com.intellij.ide.errorTreeView.NewErrorTreeViewPanel$5@CompilerMessagesToolbar" count="1" />
+      <entry action="com.intellij.ide.errorTreeView.NewErrorTreeViewPanel$StopAction@CompilerMessagesToolbar" count="5" />
+      <entry action="com.intellij.openapi.keymap.impl.ui.KeymapPanel$10@Keymap" count="1" />
+      <entry action="com.intellij.openapi.keymap.impl.ui.KeymapPanel$9@Keymap" count="3" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="6" />
+      <entry action="com.intellij.usages.impl.UsageViewImpl$10@UsageViewToolbar" count="1" />
+      <entry action="com.intellij.usages.impl.UsageViewImpl$MergeDupLines@UsageViewToolbar" count="2" />
+      <entry action="org.jetbrains.sbt.shell.action.RestartAction@unknown" count="1" />
+    </counts>
+  </component>
+</application>

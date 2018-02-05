@@ -1,0 +1,333 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="JavaScript versions">
+      <project id="quickfixj-examples" values="ECMAScript 5.1" collectionTime="1450373845976" />
+      <project id="stereo-autoconfig" values="DEFAULT" collectionTime="1447171335877" />
+      <project id="Chapter_01" values="DEFAULT" collectionTime="1447038827736" />
+      <project id="java8-in-action" values="ECMAScript 5.1" collectionTime="1466451560741" />
+      <project id="stereo-mixedconfig" values="ECMAScript 5.1" collectionTime="1447709595583" />
+      <project id="Functional Programming in Scala {TechieAce}.pdf" values="ECMAScript 5.1" collectionTime="1465856656888" />
+      <project id="euler" values="ECMAScript 5.1" collectionTime="1451081971284" />
+      <project id="lp-solver" values="ECMAScript 5.1" collectionTime="1453840231759" />
+      <project id="knight" values="DEFAULT" collectionTime="1447087366657" />
+      <project id="scopedbeans" values="ECMAScript 5.1" collectionTime="1447860695505" />
+      <project id="Spring_in_Action_Fo.pdf" values="DEFAULT" collectionTime="1447038651032" />
+      <project id="fp-in-scala" values="ECMAScript 5.1" collectionTime="1465856799114" />
+      <project id="profiles" values="ECMAScript 5.1" collectionTime="1447859234510" />
+      <project id="hibernate-manning" values="ECMAScript 5.1" collectionTime="1451697280428" />
+      <project id="fix-market-simulator" values="ECMAScript 5.1" collectionTime="1452006269553" />
+      <project id="betterment" values="ECMAScript 5.1" collectionTime="1473542117398" />
+      <project id="hibernate-subsetter" values="ECMAScript 5.1" collectionTime="1448410154236" />
+      <project id="quickfixj-parent" values="ECMAScript 5.1" collectionTime="1450455850603" />
+      <project id="project-euler" values="ECMAScript 5.1" collectionTime="1451017711533" />
+      <project id="betterment-interviews" values="ECMAScript 5.1" collectionTime="1459367795303" />
+      <project id="spring-in-action" values="ECMAScript 5.1" collectionTime="1447699154425" />
+      <project id="stereo-xmlconfig" values="ECMAScript 5.1" collectionTime="1447709060412" />
+      <project id="betterment-interview-questions" values="ECMAScript 5.1" collectionTime="1464710740440" />
+      <project id="jpwh" values="ECMAScript 5.1" collectionTime="1451880682003" />
+      <project id="learning-aspectj" values="DEFAULT" collectionTime="1444062788168" />
+      <project id="or-tools.MacOsX64" values="ECMAScript 5.1" collectionTime="1453220908419" />
+      <project id="stereo-javaconfig" values="DEFAULT" collectionTime="1447172161970" />
+      <project id="conditional" values="ECMAScript 5.1" collectionTime="1447859686918" />
+      <project id="learning-spring" values="DEFAULT" collectionTime="1443031152642" />
+      <project id="learning-hibernate" values="ECMAScript 5.1" collectionTime="1451317159193" />
+    </group>
+    <group name="module type">
+      <project id="quickfixj-examples" values="JAVA_MODULE" collectionTime="1450373845836" />
+      <project id="stereo-autoconfig" values="JAVA_MODULE" collectionTime="1447171335840" />
+      <project id="Chapter_01" values="JAVA_MODULE" collectionTime="1447038827723" />
+      <project id="java8-in-action" values="JAVA_MODULE" collectionTime="1466451560556" />
+      <project id="stereo-mixedconfig" values="JAVA_MODULE" collectionTime="1447709595549" />
+      <project id="Functional Programming in Scala {TechieAce}.pdf" values="JAVA_MODULE" collectionTime="1465856656872" />
+      <project id="euler" values="JAVA_MODULE" collectionTime="1451081971107" />
+      <project id="lp-solver" values="JAVA_MODULE" collectionTime="1453840231723" />
+      <project id="knight" values="JAVA_MODULE" collectionTime="1447087366604" />
+      <project id="scopedbeans" values="JAVA_MODULE" collectionTime="1447860695473" />
+      <project id="Spring_in_Action_Fo.pdf" values="JAVA_MODULE" collectionTime="1447038650942" />
+      <project id="fp-in-scala" values="JAVA_MODULE" collectionTime="1465856799097" />
+      <project id="profiles" values="JAVA_MODULE" collectionTime="1447859234474" />
+      <project id="hibernate-manning" values="JAVA_MODULE" collectionTime="1451697280381" />
+      <project id="fix-market-simulator" values="JAVA_MODULE" collectionTime="1452006269494" />
+      <project id="betterment" values="JAVA_MODULE" collectionTime="1473542117159" />
+      <project id="hibernate-subsetter" values="JAVA_MODULE" collectionTime="1448410154204" />
+      <project id="quickfixj-parent" values="JAVA_MODULE" collectionTime="1450455850559" />
+      <project id="project-euler" values="JAVA_MODULE" collectionTime="1451017711493" />
+      <project id="betterment-interviews" values="JAVA_MODULE" collectionTime="1459367795143" />
+      <project id="spring-in-action" values="JAVA_MODULE" collectionTime="1447699154400" />
+      <project id="stereo-xmlconfig" values="JAVA_MODULE" collectionTime="1447709060377" />
+      <project id="betterment-interview-questions" values="JAVA_MODULE" collectionTime="1464710740390" />
+      <project id="jpwh" values="JAVA_MODULE" collectionTime="1451880681962" />
+      <project id="learning-aspectj" values="JAVA_MODULE" collectionTime="1444062788140" />
+      <project id="or-tools.MacOsX64" values="JAVA_MODULE" collectionTime="1453220908369" />
+      <project id="stereo-javaconfig" values="JAVA_MODULE" collectionTime="1447172161924" />
+      <project id="conditional" values="JAVA_MODULE" collectionTime="1447859686884" />
+      <project id="learning-spring" values="JAVA_MODULE" collectionTime="1443031152451" />
+      <project id="learning-hibernate" values="JAVA_MODULE" collectionTime="1451317158997" />
+    </group>
+    <group name="vcs">
+      <project id="fix-market-simulator" values="Git" collectionTime="1452006269494" />
+      <project id="spring-in-action" values="Git" collectionTime="1447699154400" />
+      <project id="fp-in-scala" values="Git" collectionTime="1465856799097" />
+      <project id="quickfixj-parent" values="Git" collectionTime="1450455850559" />
+      <project id="betterment" values="Git" collectionTime="1473542117158" />
+      <project id="java8-in-action" values="Git" collectionTime="1466451560556" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="betterment" values="JUnit,Application" collectionTime="1473542117160" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="learning-spring" values="Application" collectionTime="1443031152451" />
+      <project id="betterment-interview-questions" values="Application" collectionTime="1464710740390" />
+      <project id="java8-in-action" values="Application" collectionTime="1466451560557" />
+      <project id="euler" values="GroovyScriptRunConfiguration" collectionTime="1451081971108" />
+      <project id="lp-solver" values="Application" collectionTime="1453840231723" />
+      <project id="knight" values="Application" collectionTime="1447087366604" />
+      <project id="stereo-javaconfig" values="GradleRunConfiguration" collectionTime="1447172161924" />
+      <project id="betterment" values="JUnit" collectionTime="1473542117160" />
+      <project id="stereo-autoconfig" values="GradleRunConfiguration" collectionTime="1447171335840" />
+      <project id="jpwh" values="TestNG" collectionTime="1451880681963" />
+    </group>
+    <group name="file-type">
+      <project id="Chapter_01" values="JAVA,Properties,XML,ARCHIVE,IDEA_MODULE,Groovy,PLAIN_TEXT,UNKNOWN" collectionTime="1447038827735" />
+      <project id="learning-spring" values="XML,UNKNOWN,Properties,PLAIN_TEXT,IDEA_MODULE,JAVA" collectionTime="1443031152583" />
+      <project id="profiles" values="Properties,JAVA,XML,UNKNOWN,Groovy,PLAIN_TEXT,SQL,IDEA_MODULE,ARCHIVE" collectionTime="1447859234509" />
+      <project id="stereo-autoconfig" values="Properties,JAVA,Groovy,IDEA_MODULE,ARCHIVE,PLAIN_TEXT,UNKNOWN,XML" collectionTime="1447171335875" />
+      <project id="project-euler" values="XML,UNKNOWN,IDEA_MODULE,PLAIN_TEXT" collectionTime="1451017711532" />
+      <project id="conditional" values="IDEA_MODULE,XML,JAVA,Properties,PLAIN_TEXT,Groovy,ARCHIVE,UNKNOWN" collectionTime="1447859686917" />
+      <project id="Spring_in_Action_Fo.pdf" values="Native,UNKNOWN" collectionTime="1447038650985" />
+      <project id="jpwh" values="XML,PLAIN_TEXT,CSS,HTML,UNKNOWN,XHTML,JavaScript,JAVA,IDEA_MODULE,Properties" collectionTime="1451880682001" />
+      <project id="quickfixj-examples" values="IDEA_MODULE,PLAIN_TEXT,JAVA,UNKNOWN,XML" collectionTime="1450373845894" />
+      <project id="or-tools.MacOsX64" values="JAVA,UNKNOWN,ARCHIVE,IDEA_MODULE,XML,PLAIN_TEXT" collectionTime="1453220908418" />
+      <project id="stereo-xmlconfig" values="Groovy,ARCHIVE,XML,JAVA,IDEA_MODULE,UNKNOWN,PLAIN_TEXT,Properties" collectionTime="1447709060411" />
+      <project id="betterment" values="CSS,JSHint,JSP,HTML,Images,JSCS,Sass,SCSS,TypeScript,Eclipse,ARCHIVE,FTL,AspectJ,DTD,JSON Schema,IDEA_MODULE,SQLite Database,Less,ProGuard File,DATASOURCE_STORAGE,CoffeeScript,Native,Cucumber,Perl,SourceMap,SQL,XML,C++,Groovy,HAML,Properties,UNKNOWN,YAML,XHTML,PLAIN_TEXT,IDEA_PROJECT,JavaScript,JSON,JAVA,PATCH,IDEA_WORKSPACE" collectionTime="1473542117297" />
+      <project id="knight" values="Properties,IDEA_MODULE,Groovy,JAVA,PLAIN_TEXT,UNKNOWN,XML,ARCHIVE" collectionTime="1447087366650" />
+      <project id="euler" values="ARCHIVE,Properties,IDEA_MODULE,UNKNOWN,XML,JAVA,Groovy,PLAIN_TEXT" collectionTime="1451081971196" />
+      <project id="spring-in-action" values="JAVA,XML,JSP,HTML,Groovy,ARCHIVE,SQL,JSON,PLAIN_TEXT,Images,Properties,UNKNOWN,CSS,JavaScript,IDEA_MODULE,CLASS" collectionTime="1447699154424" />
+      <project id="hibernate-subsetter" values="XML,Groovy,ARCHIVE,Properties,IDEA_MODULE,UNKNOWN,PLAIN_TEXT" collectionTime="1448410154236" />
+      <project id="stereo-mixedconfig" values="XML,JAVA,Properties,ARCHIVE,IDEA_MODULE,Groovy,PLAIN_TEXT,UNKNOWN" collectionTime="1447709595581" />
+      <project id="scopedbeans" values="UNKNOWN,PLAIN_TEXT,JAVA,Properties,IDEA_MODULE,Groovy,ARCHIVE,XML" collectionTime="1447860695504" />
+      <project id="stereo-javaconfig" values="XML,JAVA,Groovy,IDEA_MODULE,PLAIN_TEXT,UNKNOWN,ARCHIVE,Properties" collectionTime="1447172161969" />
+      <project id="learning-hibernate" values="XML,PLAIN_TEXT,JAVA,IDEA_MODULE,UNKNOWN" collectionTime="1451317159084" />
+      <project id="betterment-interviews" values="ARCHIVE,JAVA,Groovy,Properties,PLAIN_TEXT" collectionTime="1459367795245" />
+      <project id="Functional Programming in Scala {TechieAce}.pdf" values="Native" collectionTime="1465856656887" />
+      <project id="learning-aspectj" values="UNKNOWN,XML,JAVA,IDEA_MODULE,PLAIN_TEXT" collectionTime="1444062788166" />
+      <project id="lp-solver" values="XML,UNKNOWN,IDEA_MODULE,PLAIN_TEXT,JAVA" collectionTime="1453840231757" />
+      <project id="java8-in-action" values="XML,PLAIN_TEXT,JAVA" collectionTime="1466451560686" />
+      <project id="fix-market-simulator" values="XML,UNKNOWN,Groovy,IDEA_MODULE,PLAIN_TEXT" collectionTime="1452006269548" />
+      <project id="quickfixj-parent" values="PLAIN_TEXT,Images,IDEA_MODULE,SQL,UNKNOWN,CSS,HTML,JAVA,XML" collectionTime="1450455850599" />
+      <project id="hibernate-manning" values="JAVA,IDEA_MODULE,PLAIN_TEXT,UNKNOWN,XML" collectionTime="1451697280420" />
+      <project id="betterment-interview-questions" values="JAVA,IDEA_MODULE" collectionTime="1464710740435" />
+    </group>
+    <group name="images.ide.background">
+      <project id="betterment" values="editor,frame 0" collectionTime="1473542117344" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="betterment" values="MySQL/5.6.29" collectionTime="1473542117530" />
+    </group>
+    <group name="ruby-gems-names">
+      <project id="betterment" values="factory_girl,chosen-rails,hashery,countries,jquery-turbolinks,globalid,minitest=2,delayed_job_active_record,thread_safe,hike,activesupport-decorators,sprockets,actionpack,delayed-plugins-airbrake,paperclip,therubyrhino,kaminari,sass-rails,tilt=2,rspec=2,childprocess=2,ruby-progressbar,sdoc,site_prism,activemodel,bundler,dotenv-deployment,activerecord-jdbcmysql-adapter,compass-rgbapng,aws-sdk,runtime,afm,rspec-rails=2,fssm,nprogress-rails,database_cleaner,hashie,ffi=2,websocket=2,addressable=2,sass,omniauth,money-rails,quiet_assets,activerecord,omniauth-google-oauth2,jquery-rails,webmock,compass,diff-lcs,uglifier=2,bootstrap-sass,oauth2,nested_form_fields,ruby-rc4,safe_yaml,fakeable_her,phony=2,jwt,i18n,rubyzip=2,astrolabe,foreman,rspec-support=2,better_errors,arel,tzinfo,luhn,webrick,rspec-core=2,rack=2,execjs,her,turbolinks,cocaine,orm_adapter,rspec-mocks=2,therubyrhino_jar,mime-types=2,coffee-rails,faraday,capybara,multipart-post,railties,rspec-expectations=2,Ascii85,selenium-webdriver=2,bcrypt,ttfunk,paper_trail,builder,thor,simple_form,warden,monetize,pdf-reader,crack,request_store,coffee-script,newrelic_rpm,coderay,style_closet,rbnacl,devise,omniauth-oauth2,factory_girl_rails,le,compass-rails,rubocop=2,eccleston,delayed_job,rainbow,erubis,jdbc-mysql,prawn,i18n_data,ruby_spec_helpers=2,airbrake,public_suffix,dotenv,multi_xml,xpath,rake,money,activesupport=2,multi_json=2,faraday_middleware,yarjuf,actionmailer,actionview,rack-test,pdf-core,attribute_normalizer,coffee-script-source,mail,phony_rails,climate_control,powerpack,date_validator,ast,activerecord-jdbc-adapter,parser,standing_desk,american_date,nokogiri=2,chunky_png,currencies,prawn-templates,capybara-webkit,jbuilder,rails,json,sprockets-rails" collectionTime="1472089884620" />
+    </group>
+    <group name="Spring MVC">
+      <project id="betterment" values="mvcModelsInProject_0" collectionTime="1473542117541" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="betterment" values="com.mysql.jdbc.Driver" collectionTime="1473542117530" />
+    </group>
+    <group name="spring">
+      <project id="Chapter_01" values="fileset_xmlContext,xmlNS_www.springframework.org/schema/aop,fileset_configFiles5,xmlNS_www.springframework.org/schema/aop" collectionTime="1447038827741" />
+      <project id="spring-in-action" values="xmlNS_activemq.apache.org/schema/core,xmlNS_www.springframework.org/schema/jms,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/aop,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/jdbc,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/jdbc,xmlNS_www.springframework.org/schema/jdbc,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/jdbc,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/context,fileset_configFilesGreater10,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/rabbit,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/websocket,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/webflow-config,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/data/jpa,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/util,xmlNS_www.springframework.org/schema/rabbit,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/websocket,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/aop,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/jee,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/rabbit,fileset_xmlContext,xmlNS_www.springframework.org/schema/jdbc,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/c,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/p" collectionTime="1447699154455" />
+      <project id="betterment" values="fileset_autodetect_NONE,fileset_configFiles5" collectionTime="1473542117532" />
+      <project id="learning-spring" values="fileset_xmlContext,xmlNS_www.springframework.org/schema/context,fileset_configFiles5" collectionTime="1443031152643" />
+      <project id="learning-aspectj" values="fileset_configFiles5,fileset_xmlContext,xmlNS_www.springframework.org/schema/aop" collectionTime="1444062788168" />
+    </group>
+    <group name="ruby-sdk-version">
+      <project id="betterment" values="rbenv  jruby-1.7.25 [1.9]" collectionTime="1472089884619" />
+    </group>
+    <group name="ruby-project-type">
+      <project id="betterment" values="rails 4.1" collectionTime="1472089884620" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="quickfixj-examples" values="Project,Project" collectionTime="1450373845975" />
+      <project id="stereo-autoconfig" values="Project,Project" collectionTime="1447171335877" />
+      <project id="Chapter_01" values="Project,Project" collectionTime="1447038827736" />
+      <project id="java8-in-action" values="Project,Project" collectionTime="1466451560741" />
+      <project id="stereo-mixedconfig" values="Project,Project" collectionTime="1447709595583" />
+      <project id="Functional Programming in Scala {TechieAce}.pdf" values="Project,Project" collectionTime="1465856656888" />
+      <project id="euler" values="Project,Project" collectionTime="1451081971284" />
+      <project id="lp-solver" values="Project,Project" collectionTime="1453840231759" />
+      <project id="knight" values="Project,Project" collectionTime="1447087366657" />
+      <project id="scopedbeans" values="Project,Project" collectionTime="1447860695505" />
+      <project id="Spring_in_Action_Fo.pdf" values="Project,Project" collectionTime="1447038651032" />
+      <project id="fp-in-scala" values="Project,Project" collectionTime="1465856799114" />
+      <project id="profiles" values="Project,Project" collectionTime="1447859234510" />
+      <project id="hibernate-manning" values="Project,Project" collectionTime="1451697280428" />
+      <project id="fix-market-simulator" values="Project,Project" collectionTime="1452006269553" />
+      <project id="betterment" values="Project,Project" collectionTime="1473542117398" />
+      <project id="hibernate-subsetter" values="Project,Project" collectionTime="1448410154236" />
+      <project id="quickfixj-parent" values="Project,Project" collectionTime="1450455850603" />
+      <project id="project-euler" values="Project,Project" collectionTime="1451017711533" />
+      <project id="betterment-interviews" values="Project,Project" collectionTime="1459367795303" />
+      <project id="spring-in-action" values="Project,Project" collectionTime="1447699154425" />
+      <project id="stereo-xmlconfig" values="Project,Project" collectionTime="1447709060412" />
+      <project id="betterment-interview-questions" values="Project,Project" collectionTime="1464710740440" />
+      <project id="jpwh" values="Project,Project" collectionTime="1451880682003" />
+      <project id="learning-aspectj" values="Project,Project" collectionTime="1444062788168" />
+      <project id="or-tools.MacOsX64" values="Project,Project" collectionTime="1453220908419" />
+      <project id="stereo-javaconfig" values="Project,Project" collectionTime="1447172161970" />
+      <project id="conditional" values="Project,Project" collectionTime="1447859686918" />
+      <project id="learning-spring" values="Project,Project" collectionTime="1443031152642" />
+      <project id="learning-hibernate" values="Project,Project" collectionTime="1451317159193" />
+    </group>
+    <group name="Git">
+      <project id="betterment-interview-questions" values="config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled" collectionTime="1464710740436" />
+      <project id="quickfixj-parent" values="config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,data.remote.branches.count.2+,config.push.update.all.roots.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,data.local.branches.count.1,config.ssh.enabled,config.force.push.enabled" collectionTime="1450455850602" />
+      <project id="fix-market-simulator" values="config.force.push.enabled,data.remote.branches.count.0,data.local.branches.count.1,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.0,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled" collectionTime="1452006269549" />
+      <project id="java8-in-action" values="config.ssh.enabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.force.push.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,data.local.branches.count.1,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,data.remote.branches.count.1,data.remotes.in.project.1" collectionTime="1466451560691" />
+      <project id="fp-in-scala" values="config.ssh.enabled,config.force.push.enabled,data.remotes.in.project.1,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,data.remote.branches.count.0,config.save.policy.STASH,config.push.update.all.roots.enabled,data.local.branches.count.0" collectionTime="1465856799113" />
+      <project id="jpwh" values="config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled" collectionTime="1451880682003" />
+      <project id="quickfixj-examples" values="config.save.policy.STASH,config.push.update.all.roots.enabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled" collectionTime="1450373845899" />
+      <project id="betterment" values="config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.ssh.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.repo.sync.DONT_SYNC,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,data.remotes.in.project.1,data.remote.branches.count.100+,data.local.branches.count.8+,config.force.push.enabled,config.warn.about.detached.enabled" collectionTime="1473542117345" />
+      <project id="euler" values="config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.force.push.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled" collectionTime="1451081971204" />
+      <project id="learning-hibernate" values="config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.force.push.enabled,config.push.update.all.roots.enabled" collectionTime="1451317159099" />
+      <project id="project-euler" values="config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.ssh.enabled" collectionTime="1451017711532" />
+      <project id="betterment-interviews" values="config.ssh.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1459367795253" />
+      <project id="Functional Programming in Scala {TechieAce}.pdf" values="config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.force.push.enabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled" collectionTime="1465856656887" />
+      <project id="lp-solver" values="config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.force.push.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.save.policy.STASH" collectionTime="1453840231758" />
+      <project id="or-tools.MacOsX64" values="config.force.push.enabled,config.push.autoupdate.disabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled" collectionTime="1453220908418" />
+      <project id="hibernate-manning" values="config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.force.push.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1451697280427" />
+    </group>
+    <group name="libraries">
+      <project id="quickfixj-parent" values="CDI" collectionTime="1450455850602" />
+      <project id="stereo-autoconfig" values="spring" collectionTime="1447171335876" />
+      <project id="conditional" values="spring" collectionTime="1447859686917" />
+      <project id="jpwh" values="WebSocket,BatchApplications,JMS,ConcurrencyUtilsForJavaee,JAX-WS,jsf,ConnectorArchitecture,TransactionJavaee,BeanValidation,CDI,JsonProcessing,hibernate,org.osgi.core,EJB" collectionTime="1451880682003" />
+      <project id="stereo-xmlconfig" values="spring" collectionTime="1447709060411" />
+      <project id="betterment" values="groovy,JsonProcessing,BeanValidation,spring,hibernate,JAX-WS,TransactionJavaee,jsf,CDI,spring-mvc" collectionTime="1473542117343" />
+      <project id="knight" values="spring" collectionTime="1447087366654" />
+      <project id="learning-hibernate" values="TransactionJavaee,hibernate" collectionTime="1451317159094" />
+      <project id="scopedbeans" values="spring" collectionTime="1447860695505" />
+      <project id="stereo-mixedconfig" values="spring" collectionTime="1447709595581" />
+      <project id="profiles" values="spring" collectionTime="1447859234509" />
+      <project id="stereo-javaconfig" values="spring" collectionTime="1447172161969" />
+      <project id="learning-spring" values="spring" collectionTime="1443031152593" />
+      <project id="learning-aspectj" values="spring" collectionTime="1444062788167" />
+      <project id="hibernate-manning" values="hibernate,TransactionJavaee" collectionTime="1451697280427" />
+    </group>
+    <group name="frameworks">
+      <project id="learning-hibernate" values="jpa" collectionTime="1451317158997" />
+      <project id="spring-in-action" values="web,Spring" collectionTime="1447699154400" />
+      <project id="learning-aspectj" values="Spring" collectionTime="1444062788140" />
+      <project id="Chapter_01" values="Spring" collectionTime="1447038827723" />
+      <project id="quickfixj-examples" values="Osmorc" collectionTime="1450373845836" />
+      <project id="hibernate-manning" values="jpa" collectionTime="1451697280381" />
+      <project id="learning-spring" values="Spring" collectionTime="1443031152450" />
+      <project id="quickfixj-parent" values="Osmorc" collectionTime="1450455850559" />
+      <project id="betterment" values="AspectJ,invalid,web,Spring,hibernate" collectionTime="1473542117159" />
+      <project id="jpwh" values="jpa,web" collectionTime="1451880681962" />
+    </group>
+    <group name="language-level">
+      <project id="quickfixj-examples" values="JDK_1_6,JDK_1_5" collectionTime="1450373845898" />
+      <project id="stereo-autoconfig" values="JDK_1_7" collectionTime="1447171335876" />
+      <project id="Chapter_01" values="JDK_1_6" collectionTime="1447038827735" />
+      <project id="java8-in-action" values="JDK_1_8,JDK_1_5" collectionTime="1466451560690" />
+      <project id="stereo-mixedconfig" values="JDK_1_6" collectionTime="1447709595582" />
+      <project id="Functional Programming in Scala {TechieAce}.pdf" values="JDK_1_6" collectionTime="1465856656887" />
+      <project id="euler" values="JDK_1_7" collectionTime="1451081971203" />
+      <project id="lp-solver" values="JDK_1_5,JDK_1_8" collectionTime="1453840231758" />
+      <project id="knight" values="JDK_1_7" collectionTime="1447087366654" />
+      <project id="scopedbeans" values="JDK_1_6" collectionTime="1447860695505" />
+      <project id="Spring_in_Action_Fo.pdf" values="JDK_1_6" collectionTime="1447038650988" />
+      <project id="fp-in-scala" values="JDK_1_6" collectionTime="1465856799113" />
+      <project id="profiles" values="JDK_1_6" collectionTime="1447859234509" />
+      <project id="hibernate-manning" values="JDK_1_5,JDK_1_8" collectionTime="1451697280427" />
+      <project id="fix-market-simulator" values="JDK_1_8" collectionTime="1452006269549" />
+      <project id="betterment" values="JDK_1_8" collectionTime="1473542117344" />
+      <project id="hibernate-subsetter" values="JDK_1_7" collectionTime="1448410154236" />
+      <project id="quickfixj-parent" values="JDK_1_5,JDK_1_6" collectionTime="1450455850602" />
+      <project id="project-euler" values="JDK_1_6" collectionTime="1451017711532" />
+      <project id="betterment-interviews" values="JDK_1_8,JDK_1_5" collectionTime="1459367795252" />
+      <project id="spring-in-action" values="JDK_1_6" collectionTime="1447699154425" />
+      <project id="stereo-xmlconfig" values="JDK_1_6" collectionTime="1447709060411" />
+      <project id="betterment-interview-questions" values="JDK_1_8" collectionTime="1464710740436" />
+      <project id="jpwh" values="JDK_1_8,JDK_1_7" collectionTime="1451880682003" />
+      <project id="learning-aspectj" values="JDK_1_5,JDK_1_7" collectionTime="1444062788167" />
+      <project id="or-tools.MacOsX64" values="JDK_1_8" collectionTime="1453220908418" />
+      <project id="stereo-javaconfig" values="JDK_1_7" collectionTime="1447172161969" />
+      <project id="conditional" values="JDK_1_6" collectionTime="1447859686917" />
+      <project id="learning-spring" values="JDK_1_7,JDK_1_5" collectionTime="1443031152596" />
+      <project id="learning-hibernate" values="JDK_1_7,JDK_1_5" collectionTime="1451317159098" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="27" />
+      <entry feature="CreateFile.CreateSpringConfigAction" count="2" />
+      <entry feature="StripeButton[Version Control].shown" count="1" />
+      <entry feature="StripeButton[Version_Control].hidden" count="2" />
+      <entry feature="StripeButton[Version_Control].shown" count="1" />
+      <entry feature="debugger.reload.classes" count="13" />
+      <entry feature="diff.DiffPanelImpl" count="2" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.DEFAULT" count="2" />
+      <entry feature="execute.Application.Coverage" count="1" />
+      <entry feature="execute.Application.Debug" count="634" />
+      <entry feature="execute.Application.Run" count="744" />
+      <entry feature="execute.GradleRunConfiguration.Run" count="3" />
+      <entry feature="execute.GroovyScriptRunConfiguration.Run" count="3" />
+      <entry feature="execute.JUnit.Coverage" count="13" />
+      <entry feature="execute.JUnit.Debug" count="3389" />
+      <entry feature="execute.JUnit.Run" count="7834" />
+      <entry feature="execute.RSpecRunConfigurationType.Run" count="3" />
+      <entry feature="execute.SpringBootApplicationConfigurationType.Debug" count="2" />
+      <entry feature="execute.SpringBootApplicationConfigurationType.Run" count="16" />
+      <entry feature="execute.TestNG.Run" count="1" />
+      <entry feature="execute.TestUnitRunConfigurationType.Run" count="1" />
+      <entry feature="ide.help.null" count="1" />
+      <entry feature="ide.help.refactoring.extractMethod" count="1" />
+      <entry feature="ide.help.spring.managing.file.sets" count="1" />
+      <entry feature="ide.help.top" count="2" />
+      <entry feature="ide.settings.Annotation_Processors" count="4" />
+      <entry feature="ide.settings.Appearance" count="9" />
+      <entry feature="ide.settings.Auto_Import" count="11" />
+      <entry feature="ide.settings.Code Style" count="2" />
+      <entry feature="ide.settings.Code_Style" count="9" />
+      <entry feature="ide.settings.Color Scheme" count="1" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="26" />
+      <entry feature="ide.settings.Eclipse&#10;Code_Formatter" count="3" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="3" />
+      <entry feature="ide.settings.Font" count="5" />
+      <entry feature="ide.settings.General" count="16" />
+      <entry feature="ide.settings.Git" count="4" />
+      <entry feature="ide.settings.Groovy" count="12" />
+      <entry feature="ide.settings.Java" count="23" />
+      <entry feature="ide.settings.Java_Compiler" count="4" />
+      <entry feature="ide.settings.Keymap" count="5" />
+      <entry feature="ide.settings.Maven" count="1" />
+      <entry feature="ide.settings.Plugins" count="9" />
+      <entry feature="ide.settings.Project_Structure" count="18" />
+      <entry feature="ide.settings.Ruby" count="2" />
+      <entry feature="ide.settings.SQL_Dialects" count="8" />
+      <entry feature="ideaapp.started" count="486" />
+      <entry feature="project.view.pane.AndroidView" count="15" />
+      <entry feature="project.view.pane.PackagesPane" count="1" />
+      <entry feature="project.view.pane.ProjectPane" count="7" />
+      <entry feature="project.view.pane.Scratches" count="8" />
+      <entry feature="scala.file.script.parsed" count="2329" />
+      <entry feature="scala.file.with.type.aware.annotated" count="70" />
+      <entry feature="scala.worksheet" count="2" />
+      <entry feature="spring.SpringConfigurationCheck.FileCount.java" count="4665" />
+      <entry feature="spring.SpringConfigurationCheck.FileCount.xml" count="8043" />
+      <entry feature="spring.SpringFacetInspection.AddFacetFix" count="3" />
+      <entry feature="spring.SpringFacetInspection.ConfigureFileSetFix" count="6" />
+      <entry feature="spring.SpringInlineHandler" count="5" />
+      <entry feature="terminal.mac" count="18" />
+      <entry feature="uml.ShowDiagram.JAVA.popup" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="3" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="19" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="23" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="40" />
+      <entry feature="welcome.screen.WelcomeScreen.Plugins" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.Settings" count="1" />
+    </counts>
+  </component>
+</application>

@@ -1,0 +1,75 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>tickDAO.save</find>
+      <find>UpdateTickCLI</find>
+      <find>warmupRdsInstance</find>
+      <find>tradedifference</find>
+      <find>roth return rate</find>
+      <find>effectiveFree</find>
+      <find>getAfterTaxReturn</find>
+      <find>priceReturn</find>
+      <find>NEGATIVE_POSITION_DOLLAR_THRESHOLD</find>
+      <find>NEGATIVE_POSIT</find>
+      <find>negative</find>
+      <find>halt</find>
+      <find>limitord</find>
+      <find>market_hours</find>
+      <find>betterment.trading.haltlogic.shouldbefalseforintegrationtests</find>
+      <find>dox_</find>
+      <find>betterment_trading_</find>
+      <find>haltlogic</find>
+      <find>restoreRds</find>
+      <find>restoreRdsInst</find>
+      <find>./fl</find>
+      <find>migrate</find>
+      <find>--migrate</find>
+      <find>just a</find>
+      <find>createTradeForINdi</find>
+      <find>CASH</find>
+      <find>CreateIndividualTrade</find>
+      <find>investmentHorizonYears</find>
+      <find>investmentHorizongY</find>
+      <find>expectedIncomeReturn</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>result.optimalAccountTickerBalances</replace>
+      <replace>givenNoAccountsToLiquidate(goal)</replace>
+      <replace>accessor</replace>
+      <replace>trading.linearprogramming.multiTaxableRestrictedTickerRotationConstraintFactory</replace>
+      <replace>runSingleLegOfTrading(prices, prices)</replace>
+      <replace>runPercentageBasedTrading(prices, prices, prices)</replace>
+      <replace>runTwoLegsOfTrading(prices, prices, prices, prices)</replace>
+      <replace>individualShareTrade</replace>
+      <replace>withIndividualShareTradesByGoal(goalA, ImmutableList.of</replace>
+      <replace>def sourceGoal = new GoalBuilder().withTaxLocationEnabled(TAX_LOCATION_ENABLED).build()</replace>
+      <replace>def sourceGoal = new GoalBuilder().withTaxLocationEnabled(TAX_LOCATION_DISABLED).build()</replace>
+      <replace>def destinationGoal = new GoalBuilder().withTaxLocationEnabled(TAX_LOCATION_ENABLED)</replace>
+      <replace>def destinationGoal = new GoalBuilder().withTaxLocationEnabled(TAX_LOCATION_DISABLED)</replace>
+      <replace>new AccountBuilder().withName(&quot;fromAccount&quot;).withGoal(sourceGoal).withId(1L).build()</replace>
+      <replace>def fromAccount = new AccountBuilder().withName(&quot;fromAccount&quot;).withGoal(sourceGoal).withId(1L).build()</replace>
+      <replace>def toAccount = new AccountBuilder().withName(&quot;toAccount&quot;).withId(2L).withGoal(destinationGoal).build()</replace>
+      <replace>def destinationGoal = new GoalBuilder().withTaxLocationEnabled(TAX_LOCATION_ENABLED).build()</replace>
+      <replace>def destinationGoal = new GoalBuilder().withTaxLocationEnabled(TAX_LOCATION_DISABLED).build()</replace>
+      <replace>pipelineContext.getTradingStrategyResult()</replace>
+      <replace>taxLocationAccessor</replace>
+      <replace>TradingQueueItem</replace>
+      <replace>trading_queue_item</replace>
+      <replace>wash_aware_legal_account_group_id</replace>
+      <replace>clientControlNumber</replace>
+      <replace>taxRates</replace>
+      <replace>new BigDecimal</replace>
+      <replace>rothAccount1</replace>
+      <replace>taxableAccount1</replace>
+      <replace>WashGroupMerges</replace>
+      <replace>TaxpayerRelationshipUpdates</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/src/better-core/ansible/roles/deploy/batch/templates</dir>
+      <dir>$USER_HOME$/src/better-core/retail/app/views</dir>
+      <dir>$USER_HOME$/src/better-core/retail</dir>
+      <dir>$USER_HOME$/src/better-core/foundation/src/main/java/com/betterment/service/trade/strategy/taxlocation</dir>
+      <dir>$USER_HOME$/src/better-core/foundation/src/test/groovy/com/betterment/service/trade/strategy/taxlocation</dir>
+    </dirStrings>
+  </component>
+</application>
