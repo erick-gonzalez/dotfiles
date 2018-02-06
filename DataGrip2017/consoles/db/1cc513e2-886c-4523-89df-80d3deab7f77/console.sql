@@ -1,0 +1,1 @@
+select * from portfolio_management_development.public.betterment_portfolios;

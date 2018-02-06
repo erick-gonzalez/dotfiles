@@ -1,0 +1,63 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="$Copy" count="2" />
+      <entry action="$Delete" count="1" />
+      <entry action="$SelectAll" count="9" />
+      <entry action="$Undo" count="20" />
+      <entry action="CloseContent" count="4" />
+      <entry action="Console.Jdbc.Execute" count="285" />
+      <entry action="DatabaseView.AddActionGroupPopup" count="3" />
+      <entry action="DatabaseView.CloseConnectionAction" count="5" />
+      <entry action="DatabaseView.Import" count="1" />
+      <entry action="DatabaseView.PropertiesAction" count="22" />
+      <entry action="DatabaseView.SynchronizeAction" count="22" />
+      <entry action="DatabaseView.ToolsPopup" count="1" />
+      <entry action="DecreaseColumnWidth" count="1" />
+      <entry action="EditSource" count="1" />
+      <entry action="EditorBackSpace" count="378" />
+      <entry action="EditorChooseLookupItem" count="160" />
+      <entry action="EditorCopy" count="25" />
+      <entry action="EditorDeleteLine" count="8" />
+      <entry action="EditorDeleteToWordStart" count="64" />
+      <entry action="EditorDown" count="249" />
+      <entry action="EditorDownWithSelection" count="196" />
+      <entry action="EditorEnter" count="154" />
+      <entry action="EditorEscape" count="2" />
+      <entry action="EditorLeft" count="67" />
+      <entry action="EditorLeftWithSelection" count="10" />
+      <entry action="EditorLineEnd" count="52" />
+      <entry action="EditorLineEndWithSelection" count="110" />
+      <entry action="EditorLineStart" count="87" />
+      <entry action="EditorLineStartWithSelection" count="11" />
+      <entry action="EditorNextWord" count="85" />
+      <entry action="EditorNextWordWithSelection" count="55" />
+      <entry action="EditorPaste" count="56" />
+      <entry action="EditorPreviousWord" count="99" />
+      <entry action="EditorPreviousWordWithSelection" count="6" />
+      <entry action="EditorRight" count="34" />
+      <entry action="EditorRightWithSelection" count="2" />
+      <entry action="EditorSelectWord" count="21" />
+      <entry action="EditorStartNewLine" count="1" />
+      <entry action="EditorTab" count="2" />
+      <entry action="EditorUnSelectWord" count="1" />
+      <entry action="EditorUp" count="295" />
+      <entry action="EditorUpWithSelection" count="101" />
+      <entry action="Find" count="1" />
+      <entry action="Generate" count="4" />
+      <entry action="IncreaseColumnWidth" count="1" />
+      <entry action="Jdbc.OpenConsole" count="11" />
+      <entry action="Jdbc.OpenConsole.New" count="2" />
+      <entry action="Jdbc.OpenConsole.New.Generate" count="7" />
+      <entry action="Jdbc.RunSqlScript" count="4" />
+      <entry action="ModifyObject" count="11" />
+      <entry action="MoveStatementDown" count="9" />
+      <entry action="MoveStatementUp" count="4" />
+      <entry action="OpenFile" count="4" />
+      <entry action="Replace" count="10" />
+      <entry action="SearchEverywhere" count="2" />
+      <entry action="ShowIntentionActions" count="20" />
+      <entry action="ShowNavBar" count="13" />
+    </counts>
+  </component>
+</application>

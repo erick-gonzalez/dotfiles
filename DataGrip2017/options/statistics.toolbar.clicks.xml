@@ -1,0 +1,10 @@
+<application>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="Console.Jdbc.Execute@EditorToolbar" count="1" />
+      <entry action="DatabaseView.AddActionGroupPopup@ProjectViewToolbar" count="3" />
+      <entry action="DatabaseView.CloseConnectionAction@ProjectViewToolbar" count="4" />
+      <entry action="DatabaseView.SynchronizeAction@ProjectViewToolbar" count="8" />
+    </counts>
+  </component>
+</application>
