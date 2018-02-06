@@ -1,6 +1,6 @@
 source "$HOME/.bashrc"
-source "$HOME/.dotfiles/powerlevel9k.sh"
-source "$HOME/.dotfiles/betterment.sh"
+source "$HOME/dotfiles/powerlevel9k.sh"
+source "$HOME/dotfiles/betterment.sh"
 
 export PATH="/usr/local/sbin:$PATH"
 # If you come from bash you might have to change your $PATH.
