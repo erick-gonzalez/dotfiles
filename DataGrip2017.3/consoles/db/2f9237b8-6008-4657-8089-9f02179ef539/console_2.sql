@@ -1,1 +1,0 @@
-select * from UserTransactions where completedDate is NULL order by id desc limit 100;

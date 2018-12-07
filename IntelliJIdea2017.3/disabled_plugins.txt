@@ -1,2 +1,0 @@
-org.jetbrains.java.decompiler
-org.jetbrains.plugins.ruby
