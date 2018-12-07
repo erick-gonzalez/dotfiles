@@ -19,3 +19,23 @@ Things I did
 * Brew install jenv
 * Brew tap caskroom/versions (gives you access to versions tap that has older java versions to be managed by jenny)
 * Brew cask install java8
+* Change default shell to /bin/zsh by running chsh -s /bin/zsh
+* Installed ohmyz.sh
+* Install powerline fonts
+	- homebrew/cask-fonts/font-anonymice-powerline
+	- homebrew/cask-fonts/font-consolas-for-powerline
+	- homebrew/cask-fonts/font-dejavu-sans-mono-for-powerline
+	- homebrew/cask-fonts/font-droid-sans-mono-for-powerline
+	- homebrew/cask-fonts/font-fira-mono-for-powerline
+	- homebrew/cask-fonts/font-inconsolata-dz-for-powerline
+	- homebrew/cask-fonts/font-inconsolata-for-powerline
+	- homebrew/cask-fonts/font-inconsolata-g-for-powerline
+	- homebrew/cask-fonts/font-liberation-mono-for-powerline
+	- homebrew/cask-fonts/font-menlo-for-powerline
+	- homebrew/cask-fonts/font-meslo-for-powerline
+	- homebrew/cask-fonts/font-monofur-for-powerline
+	- homebrew/cask-fonts/font-noto-mono-for-powerline
+	- homebrew/cask-fonts/font-powerline-symbols
+	- homebrew/cask-fonts/font-roboto-mono-for-powerline
+	- homebrew/cask-fonts/font-source-code-pro-for-powerline
+	- homebrew/cask-fonts/font-ubuntu-mono-derivative-powerline
