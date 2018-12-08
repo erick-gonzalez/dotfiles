@@ -42,3 +42,4 @@ Things I did
  * Install zsh syntax highlighting (https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
  * Install material design theme (https://github.com/MartinSeeler/iterm2-material-design/blob/master/README.md)
  * Install pure prompt (https://github.com/sindresorhus/pure)
+ * git config --global pager.branch false
