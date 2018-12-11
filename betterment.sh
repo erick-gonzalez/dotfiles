@@ -5,7 +5,7 @@ BETTERLOCKS_SCHEMA_PATH=$HOME'/src/better-core/etc/databases/BetterLocks-schema.
 STORED_PROCS_PATH=$HOME'/src/better-core/etc/databases/storedProcs'
 STORED_FUNCTIONS_PATH=$HOME'/src/better-core/etc/databases/storedFunctions'
 BETTER_CORE_HOME=$HOME'/src/better-core'
-EXPORT ANDROID_HOME=$HOME'/Library/Android/sdk'
+ANDROID_HOME=$HOME'/Library/Android/sdk'
 
 # Environment Variables For Running the DB Subsetter
 # RAILS_ENV="development"
