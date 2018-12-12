@@ -5,6 +5,7 @@ BETTERLOCKS_SCHEMA_PATH=$HOME'/src/custody/etc/databases/BetterLocks-schema.sql'
 STORED_PROCS_PATH=$HOME'/src/custody/etc/databases/storedProcs'
 STORED_FUNCTIONS_PATH=$HOME'/src/custody/etc/databases/storedFunctions'
 CORE_HOME=$HOME'/src/custody'
+TRADEX_HOME=$HOME'/src/trade-execution'
 ANDROID_HOME=$HOME'/Library/Android/sdk'
 
 # Environment Variables For Running the DB Subsetter
@@ -63,6 +64,10 @@ dropbox() {
 
 core() {
     cd "$CORE_HOME"
+}
+
+tradex() {
+  cd "$TRADEX_HOME"
 }
 
 tpc_statements()
