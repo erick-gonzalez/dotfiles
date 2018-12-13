@@ -43,3 +43,5 @@ Things I did
  * Install material design theme (https://github.com/MartinSeeler/iterm2-material-design/blob/master/README.md)
  * Install pure prompt (https://github.com/sindresorhus/pure)
  * git config --global pager.branch false
+ * brew install maven
+ * brew install gradle
