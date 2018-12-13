@@ -1,11 +1,12 @@
 # Betterment Environment Variables
-BETTERMENT_DB_SCHEMA_PATH=$HOME'/src/better-core/etc/databases/BettermentDB-schema.sql'
-BETTERMENT_DB_TRIGGERS_PATH=$HOME'/src/better-core/etc/databases/BettermentDB-triggers.sql'
-BETTERLOCKS_SCHEMA_PATH=$HOME'/src/better-core/etc/databases/BetterLocks-schema.sql'
-STORED_PROCS_PATH=$HOME'/src/better-core/etc/databases/storedProcs'
-STORED_FUNCTIONS_PATH=$HOME'/src/better-core/etc/databases/storedFunctions'
-BETTER_CORE_HOME=$HOME'/src/better-core'
-EXPORT ANDROID_HOME=$HOME'/Library/Android/sdk'
+BETTERMENT_DB_SCHEMA_PATH=$HOME'/src/custody/etc/databases/BettermentDB-schema.sql'
+BETTERMENT_DB_TRIGGERS_PATH=$HOME'/src/custody/etc/databases/BettermentDB-triggers.sql'
+BETTERLOCKS_SCHEMA_PATH=$HOME'/src/custody/etc/databases/BetterLocks-schema.sql'
+STORED_PROCS_PATH=$HOME'/src/custody/etc/databases/storedProcs'
+STORED_FUNCTIONS_PATH=$HOME'/src/custody/etc/databases/storedFunctions'
+CORE_HOME=$HOME'/src/custody'
+TRADEX_HOME=$HOME'/src/trade-execution'
+ANDROID_HOME=$HOME'/Library/Android/sdk'
 
 # Environment Variables For Running the DB Subsetter
 # RAILS_ENV="development"
@@ -61,8 +62,12 @@ dropbox() {
     cd "$DROPBOX_FOLDER"
 }
 
-better-core() {
-    cd "$BETTER_CORE_HOME"
+core() {
+    cd "$CORE_HOME"
+}
+
+tradex() {
+  cd "$TRADEX_HOME"
 }
 
 tpc_statements()
@@ -73,12 +78,12 @@ tpc_statements()
 }
 
 custody-db-refresh() {
-  cd "${BETTER_CORE_HOME}/custody"
+  cd "${CORE_HOME}/custody"
   gradle flyClean; gradle flyMigrate
 }
 
 pm-db-refresh() {
-  cd "${BETTER_CORE_HOME}/portfolio-management"
+  cd "${CORE_HOME}/portfolio-management"
   gradle flyClean; gradle flyMigrate 
 }
 

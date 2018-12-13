@@ -1,3 +1,12 @@
+# Environment Variables
+SRC_HOME=$HOME'/src'
+DOTFILES_HOME=$SRC_HOME'/dotfiles'
+
+# Shell Functions
+dotfiles() {
+	cd "$DOTFILES_HOME"
+}
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/erickgonzalez/.oh-my-zsh"
 
