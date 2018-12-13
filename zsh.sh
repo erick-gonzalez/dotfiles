@@ -7,6 +7,10 @@ dotfiles() {
 	cd "$DOTFILES_HOME"
 }
 
+# jenv configuration
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/erickgonzalez/.oh-my-zsh"
 
@@ -84,7 +88,3 @@ autoload -U promptinit; promptinit
 prompt pure
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# jenv configuration
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
