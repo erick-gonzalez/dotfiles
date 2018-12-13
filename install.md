@@ -40,7 +40,6 @@ Things I did
 	- homebrew/cask-fonts/font-source-code-pro-for-powerline
 	- homebrew/cask-fonts/font-ubuntu-mono-derivative-powerline
  * Install zsh syntax highlighting (https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
- * Install material design theme (https://github.com/MartinSeeler/iterm2-material-design/blob/master/README.md)
  * Install pure prompt (https://github.com/sindresorhus/pure)
  * git config --global pager.branch false
  * brew install maven
