@@ -7,6 +7,10 @@ dotfiles() {
 	cd "$DOTFILES_HOME"
 }
 
+# jenv configuration
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/erickgonzalez/.oh-my-zsh"
 
