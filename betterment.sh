@@ -62,6 +62,11 @@ dropbox() {
     cd "$DROPBOX_FOLDER"
 }
 
+web-dropbox() {
+  URL="https://www.dropbox.com/home/Betterment%20Development/database_changes/$(date +'%Y')/$(date +'%Y%m%d')"
+  open $URL
+}
+
 core() {
     cd "$CORE_HOME"
 }
