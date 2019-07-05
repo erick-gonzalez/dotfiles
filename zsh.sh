@@ -11,6 +11,15 @@ dotfiles() {
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
+# pyenv configuration
+eval "$(pyenv init -)"
+
+# llvm configuration
+export PATH="/usr/local/opt/llvm/bin:$PATH"
+LDFLAGS="-L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib"
+export LDFLAGS="-L/usr/local/opt/llvm/lib"
+export CPPFLAGS="-I/usr/local/opt/llvm/include"
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/erickgonzalez/.oh-my-zsh"
 
@@ -88,3 +97,4 @@ autoload -U promptinit; promptinit
 prompt pure
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+  
