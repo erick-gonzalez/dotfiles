@@ -3,9 +3,9 @@
 protocol = https
 
 [core]
-	editor = subl
+	editor = code
 [user]
-	email = erick@betterment.com
+	email = erick.gonzal3z@gmail.com
 	name = Erick Gonzalez
 [filter "lfs"]
 	clean = git-lfs clean %f
