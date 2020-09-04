@@ -220,10 +220,6 @@
     },
     {
         "key": "ctrl+n",
-        "command": "workbench.action.files.newUntitledFile"
-    },
-    {
-        "key": "ctrl+n",
         "command": "-workbench.action.files.newUntitledFile"
     },
     {
@@ -235,5 +231,28 @@
         "key": "ctrl+alt+b",
         "command": "editor.action.revealDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "-deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+backspace",
+        "command": "-deleteLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "deleteAllLeft"
     }
 ]
