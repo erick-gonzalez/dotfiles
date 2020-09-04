@@ -19,3 +19,5 @@ protocol = https
 	unstage = reset HEAD --
 [push]
 	default = upstream
+[credential]
+	helper = store
