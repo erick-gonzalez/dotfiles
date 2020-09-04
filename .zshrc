@@ -105,3 +105,20 @@ fi
 export SPACESHIP_PROMPT_ADD_NEWLINE=false
 export SPACESHIP_DIR_COLOR=red
 export SPACESHIP_PROMPT_SEPARATE_LINE=false
+
+# Pyenv
+eval "$(pyenv init -)"
+export PATH="$HOME/.pyenv/bin:$PATH"
+
+# Git
+alias git="git --no-pager"
+
+# C++
+export CC=/usr/bin/clang
+export CXX=/usr/bin/clang++
+
+# Misc
+export MY_INSTALL_DIR=$HOME/.local
+export PATH="$MY_INSTALL_DIR:$PATH"
+
+tmux
