@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/erick/src/bet-manager/src'
+let g:netrw_dirhist_9='/home/erick/src/bet-manager'
+let g:netrw_dirhist_8='/home/erick/src/bet-manager/sql'
+let g:netrw_dirhist_7='/home/erick/src/bet-manager'
+let g:netrw_dirhist_6='/home/erick/src/bet-manager/src'
+let g:netrw_dirhist_5='/home/erick/src/bet-manager'
+let g:netrw_dirhist_4='/home/erick/src/bet-manager/src/users'
+let g:netrw_dirhist_3='/home/erick/src/bet-manager/src'
+let g:netrw_dirhist_2='/home/erick/src/bet-manager/src/manager'
+let g:netrw_dirhist_1='/home/erick/src/bet-manager/src'
