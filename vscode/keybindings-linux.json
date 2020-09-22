@@ -21,10 +21,6 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+f12",
-        "command": "workbench.action.gotoSymbol"
-    },
-    {
         "key": "ctrl+shift+o",
         "command": "-workbench.action.gotoSymbol"
     },
@@ -254,5 +250,26 @@
     {
         "key": "ctrl+backspace",
         "command": "deleteAllLeft"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "f1",
+        "command": "-workbench.action.showCommands"
     }
 ]

@@ -120,5 +120,10 @@ export CXX=/usr/bin/clang++
 # Misc
 export MY_INSTALL_DIR=$HOME/.local
 export PATH="$MY_INSTALL_DIR:$PATH"
+export TERM=xterm-256color
+
+# Misc Aliases
+alias c="xclip"
+alias v="xclip -o"
 
 tmux
