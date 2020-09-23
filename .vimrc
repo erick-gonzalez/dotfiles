@@ -10,11 +10,13 @@ Plug 'google/vim-glaive'
 
 call plug#end()
 
+syntax enable
+
+colorscheme gruvbox
+
 augroup autoformat_settings
   autocmd FileType c,cpp,proto AutoFormatBuffer clang-format
 augroup end
-
-syntax enable
 
 set noerrorbells
 set tabstop=2 softtabstop=2
@@ -31,10 +33,21 @@ set undofile
 set incsearch
 set background=dark
 set relativenumber
-
 set colorcolumn=80
 
-colorscheme gruvbox
+let mapleader = " "
+let g:netrw_browse_split = 2
+let g:netrw_banner = 0
+let g:netrw_winsize = 25
+
+nnoremap <leader>h :wincmd h<CR>
+nnoremap <leader>l :wincmd l<CR>
+nnoremap <leader>k :wincmd k<CR>
+nnoremap <leader>l :wincmd l<CR>
+nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
+nnoremap <silent> <Leader>+ :vertical resize +5<CR>
+nnoremap <silent> <leader>- :vertical resize -5<CR>
+nnoremap <leader>ps :Rg<SPACE>
 
 imap jj <Esc>
 nmap <C-P> :Files<CR>
