@@ -121,6 +121,7 @@ export CXX=/usr/bin/clang++
 export MY_INSTALL_DIR=$HOME/.local
 export PATH="$MY_INSTALL_DIR:$PATH"
 export TERM=xterm-256color
+export FZF_DEFAULT_COMMAND='rg --files --hidden'
 
 # Misc Aliases
 alias c="xclip"
