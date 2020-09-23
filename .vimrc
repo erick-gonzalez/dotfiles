@@ -7,6 +7,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
 
@@ -43,9 +44,17 @@ let g:netrw_winsize = 25
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>l :wincmd l<CR>
 nnoremap <leader>k :wincmd k<CR>
-nnoremap <leader>l :wincmd l<CR>
+nnoremap <leader>j :wincmd j<CR>
+
+let g:tmux_navigator_no_mappings = 1
+
+nnoremap <silent> <leader>h :TmuxNavigateLeft<CR>
+nnoremap <silent> <leader>l :TmuxNavigateRight<CR>
+nnoremap <silent> <leader>k :TmuxNavigateUp<CR>
+nnoremap <silent> <leader>j :TmuxNavigateDown<CR>
+
 nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
-nnoremap <silent> <Leader>+ :vertical resize +5<CR>
+nnoremap <silent> <leader>+ :vertical resize +5<CR>
 nnoremap <silent> <leader>- :vertical resize -5<CR>
 nnoremap <leader>ps :Rg<SPACE>
 
