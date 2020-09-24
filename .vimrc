@@ -8,6 +8,9 @@ Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'preservim/nerdtree'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 
 call plug#end()
 
@@ -37,7 +40,7 @@ set relativenumber
 set colorcolumn=80
 
 let mapleader = " "
-let g:netrw_browse_split = 2
+let g:netrw_browse_split = 4
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
 
@@ -53,7 +56,7 @@ nnoremap <silent> <leader>l :TmuxNavigateRight<CR>
 nnoremap <silent> <leader>k :TmuxNavigateUp<CR>
 nnoremap <silent> <leader>j :TmuxNavigateDown<CR>
 
-nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
+nnoremap <leader>pv :NERDTreeToggle<CR>
 nnoremap <silent> <leader>+ :vertical resize +5<CR>
 nnoremap <silent> <leader>- :vertical resize -5<CR>
 nnoremap <leader>ps :Rg<SPACE>
@@ -62,4 +65,6 @@ imap jj <Esc>
 nmap <C-P> :Files<CR>
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gr <Plug>(coc-references)
+
+
 

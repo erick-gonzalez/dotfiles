@@ -1,0 +1,19 @@
+snippet guard "C++ Include Guard" b
+#ifndef ${1:`!p
+if not snip.c:
+	import os
+	import getpass
+
+	start = "/home/{}/src".format(getpass.getuser())
+	relative_path = os.path.relpath(path, start)
+	result = relative_path.upper().replace("/", "_")
+	result = result.replace("-", "_")
+	result = result.replace(".", "_")
+	snip.rv = result
+else:
+	snip.rv = snip.c`}
+#define $1
+
+#endif /* $1 */
+endsnippet
+	
