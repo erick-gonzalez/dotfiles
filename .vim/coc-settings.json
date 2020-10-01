@@ -1,4 +1,6 @@
 { 
+    "diagnostic.checkCurrentLine": true,
+    "coc.preferences.colorSupport": true,
     "languageserver":{
         "clangd":{
             "command":"clangd",

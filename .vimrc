@@ -9,6 +9,7 @@ Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'preservim/nerdtree'
+Plug 'preservim/nerdcommenter'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
@@ -28,7 +29,7 @@ set shiftwidth=2
 set expandtab
 set smartindent
 set nu
-set nowrap
+"set nowrap
 set smartcase
 set noswapfile
 set nobackup
@@ -36,6 +37,7 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 set background=dark
+set termguicolors
 set relativenumber
 set colorcolumn=80
 
@@ -61,10 +63,8 @@ nnoremap <silent> <leader>+ :vertical resize +5<CR>
 nnoremap <silent> <leader>- :vertical resize -5<CR>
 nnoremap <leader>ps :Rg<SPACE>
 
-imap jj <Esc>
-nmap <C-P> :Files<CR>
+nnoremap <C-p> :Files<CR>
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gr <Plug>(coc-references)
-
-
+nmap <silent> gf <Plug>(coc-fix-current)
 
