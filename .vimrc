@@ -7,17 +7,20 @@ Plug 'junegunn/fzf.vim'
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
-Plug 'christoomey/vim-tmux-navigator'
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
 syntax enable
 
 colorscheme gruvbox
+let g:airline_theme='gruvbox'
 
 augroup autoformat_settings
   autocmd FileType c,cpp,proto AutoFormatBuffer clang-format
@@ -40,6 +43,7 @@ set background=dark
 set termguicolors
 set relativenumber
 set colorcolumn=80
+set timeoutlen=1000 ttimeoutlen=0
 
 let mapleader = " "
 let g:netrw_browse_split = 4
@@ -51,19 +55,13 @@ nnoremap <leader>l :wincmd l<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>j :wincmd j<CR>
 
-let g:tmux_navigator_no_mappings = 1
-
-nnoremap <silent> <leader>h :TmuxNavigateLeft<CR>
-nnoremap <silent> <leader>l :TmuxNavigateRight<CR>
-nnoremap <silent> <leader>k :TmuxNavigateUp<CR>
-nnoremap <silent> <leader>j :TmuxNavigateDown<CR>
-
 nnoremap <leader>pv :NERDTreeToggle<CR>
 nnoremap <silent> <leader>+ :vertical resize +5<CR>
 nnoremap <silent> <leader>- :vertical resize -5<CR>
 nnoremap <leader>ps :Rg<SPACE>
 
 nnoremap <C-p> :Files<CR>
+
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gr <Plug>(coc-references)
 nmap <silent> gf <Plug>(coc-fix-current)

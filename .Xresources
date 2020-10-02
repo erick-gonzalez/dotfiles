@@ -2,10 +2,7 @@ URxvt*font: xft:Fira Code Retina:style=Retina:pixelsize=18
 URxvt*boldFont: xft:Fira Code:style=Bold:pixelsize=18
 URxvt*italicFont: xft:Fira Code:style=Light:pixelsize=18
 
-! Disable the Scrollbar
 URxvt*scrollBar: false
-
-URxvt*termName: screen-256color
 
 !hard contrast: *background: #1d2021
 *background: #282828
@@ -35,3 +32,10 @@ URxvt*termName: screen-256color
 ! LightGrey + White
 *color7:  #a89984
 *color15: #ebdbb2
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
+

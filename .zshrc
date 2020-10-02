@@ -12,7 +12,7 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR='vim'
 export PATH="$MY_INSTALL_DIR:$PATH"
-export TERM=rxvt-unicode-256color
+export TERM=xterm-256color
 export FZF_DEFAULT_COMMAND='rg --files --hidden'
 
 # Spaceship Prompt
