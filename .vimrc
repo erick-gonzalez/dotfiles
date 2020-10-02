@@ -62,7 +62,7 @@ nnoremap <leader>ps :Rg<SPACE>
 
 nnoremap <C-p> :Files<CR>
 
-nnoremap <silent> gd <Plug>(coc-definition)
-nnoremap <silent> gr <Plug>(coc-references)
-nnoremap <silent> gf <Plug>(coc-fix-current)
+map <silent> gd <Plug>(coc-definition)
+map <silent> gr <Plug>(coc-references)
+map <silent> gf <Plug>(coc-fix-current)
 

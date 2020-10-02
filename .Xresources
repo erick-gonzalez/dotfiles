@@ -1,6 +1,6 @@
-URxvt*font: xft:Fira Code Retina:style=Retina:pixelsize=18
-URxvt*boldFont: xft:Fira Code:style=Bold:pixelsize=18
-URxvt*italicFont: xft:Fira Code:style=Light:pixelsize=18
+URxvt*font: xft:Fira Code Retina:style=Retina:pixelsize=16
+URxvt*boldFont: xft:Fira Code:style=Bold:pixelsize=16
+URxvt*italicFont: xft:Fira Code:style=Light:pixelsize=16
 
 URxvt*scrollBar: false
 
