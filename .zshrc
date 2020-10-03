@@ -17,8 +17,14 @@ export FZF_DEFAULT_COMMAND='rg --files --hidden'
 
 # Spaceship Prompt
 export SPACESHIP_PROMPT_ADD_NEWLINE=false
-export SPACESHIP_DIR_COLOR=red
 export SPACESHIP_PROMPT_SEPARATE_LINE=false
+
+SPACESHIP_PROMPT_ORDER=(
+  user
+  dir
+  host
+  git
+)
 
 # Pyenv
 eval "$(pyenv init -)"
