@@ -33,7 +33,7 @@ set shiftwidth=2
 set expandtab
 set smartindent
 set nu
-"set nowrap
+set nowrap
 set smartcase
 set noswapfile
 set nobackup
@@ -66,4 +66,3 @@ nnoremap <C-p> :Files<CR>
 map <silent> gd <Plug>(coc-definition)
 map <silent> gr <Plug>(coc-references)
 map <silent> gf <Plug>(coc-fix-current)
-
