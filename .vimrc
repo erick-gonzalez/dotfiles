@@ -45,6 +45,10 @@ set termguicolors
 set relativenumber
 set colorcolumn=80
 set timeoutlen=1000 ttimeoutlen=0
+set autoread 
+
+let &t_SI = "\<Esc>Ptmux;\<Esc>\e[5 q\<Esc>\\"
+let &t_EI = "\<Esc>Ptmux;\<Esc>\e[2 q\<Esc>\\"
 
 let mapleader = " "
 let g:netrw_browse_split = 4
@@ -66,3 +70,7 @@ nnoremap <C-p> :Files<CR>
 map <silent> gd <Plug>(coc-definition)
 map <silent> gr <Plug>(coc-references)
 map <silent> gf <Plug>(coc-fix-current)
+
+noremap <leader>I :py3f /usr/lib/llvm-10/share/clang/clang-include-fixer.py<cr>
+
+let g:clang_include_fixer_query_mode = 1

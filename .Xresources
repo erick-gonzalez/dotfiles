@@ -4,6 +4,9 @@ URxvt*italicFont: xft:Fira Code:style=Light:pixelsize=16
 
 URxvt*scrollBar: false
 
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
 !hard contrast: *background: #1d2021
 *background: #282828
 ! soft contrast: *background: #32302f
