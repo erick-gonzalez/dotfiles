@@ -30,9 +30,6 @@ SPACESHIP_PROMPT_ORDER=(
 eval "$(pyenv init -)"
 export PATH="$HOME/.pyenv/bin:$PATH"
 
-# Git
-alias git="git --no-pager"
-
 # C++
 export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++

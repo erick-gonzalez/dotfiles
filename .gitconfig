@@ -21,3 +21,5 @@ protocol = https
 	default = upstream
 [credential]
 	helper = store
+[pager]
+	diff = true
