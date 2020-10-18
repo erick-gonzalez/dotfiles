@@ -67,9 +67,14 @@ nnoremap <leader>ps :Rg<SPACE>
 
 nnoremap <C-p> :Files<CR>
 
+" coc.nvim settings
 map <silent> gd <Plug>(coc-definition)
+map <silent> gi <Plug>(coc-implementation)
 map <silent> gr <Plug>(coc-references)
+map <silent> gy <Plug>(coc-type-definition)
 map <silent> gf <Plug>(coc-fix-current)
+
+nmap <leader>rn <Plug>(coc-rename)
 
 noremap <leader>I :py3f /usr/lib/llvm-10/share/clang/clang-include-fixer.py<cr>
 

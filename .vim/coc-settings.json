@@ -13,7 +13,7 @@
                 ".git"
             ],
             "args":[
-                "--compile-commands-dir=/home/erick/src/bet-manager/build",
+                "--compile-commands-dir=/home/erick/src/bet-manager",
                 "--compile_args_from=filesystem",
                 "--all-scopes-completion",
                 "--background-index",
