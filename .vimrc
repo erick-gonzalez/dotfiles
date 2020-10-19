@@ -25,6 +25,7 @@ let g:airline_theme='gruvbox'
 
 augroup autoformat_settings
   autocmd FileType c,cpp,proto AutoFormatBuffer clang-format
+  autocmd BufWritePost CMakeLists.txt silent! !cmake-format -i <afile> 
 augroup end
 
 set noerrorbells

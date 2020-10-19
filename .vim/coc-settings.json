@@ -27,6 +27,16 @@
                 "-j=6",
                 "--pch-storage=memory"
             ]
+        },
+        "cmake": {
+            "command": "cmake-language-server",
+            "filetypes": ["cmake"],
+            "rootPatterns": [
+                "build/"
+            ],
+            "initializationOptions": {
+                "buildDirectory": "build"
+            }
         }
     }
 }
