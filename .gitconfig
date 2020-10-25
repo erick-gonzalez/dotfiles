@@ -3,7 +3,8 @@
 protocol = https
 
 [core]
-	editor = code
+	editor = vim 
+	pager = bat
 [user]
 	email = erick.gonzal3z@gmail.com
 	name = Erick Gonzalez

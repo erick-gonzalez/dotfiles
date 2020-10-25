@@ -25,6 +25,7 @@ let g:airline_theme='gruvbox'
 
 augroup autoformat_settings
   autocmd FileType c,cpp,proto AutoFormatBuffer clang-format
+  autocmd FileType go AutoFormatBuffer gofmt
   autocmd BufWritePost CMakeLists.txt silent! !cmake-format -i <afile> 
 augroup end
 
@@ -33,6 +34,9 @@ set tabstop=2 softtabstop=2
 set shiftwidth=2
 set expandtab
 set smartindent
+set autoindent
+set autoindent
+set cindent
 set nu
 set nowrap
 set smartcase
@@ -47,6 +51,8 @@ set relativenumber
 set colorcolumn=80
 set timeoutlen=1000 ttimeoutlen=0
 set autoread 
+
+:filetype plugin on
 
 let &t_SI = "\<Esc>Ptmux;\<Esc>\e[5 q\<Esc>\\"
 let &t_EI = "\<Esc>Ptmux;\<Esc>\e[2 q\<Esc>\\"
@@ -74,6 +80,11 @@ map <silent> gi <Plug>(coc-implementation)
 map <silent> gr <Plug>(coc-references)
 map <silent> gy <Plug>(coc-type-definition)
 map <silent> gf <Plug>(coc-fix-current)
+
+" Auto close things
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
 
 nmap <leader>rn <Plug>(coc-rename)
 

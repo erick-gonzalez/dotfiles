@@ -37,6 +37,12 @@
             "initializationOptions": {
                 "buildDirectory": "build"
             }
+        },
+        "golang": {
+            "command": "gopls",
+            "rootPatterns": ["go.mod"],
+            "disableWorkspaceFolders": true,
+            "filetypes": ["go"]
         }
     }
 }

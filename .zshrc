@@ -1,7 +1,11 @@
 export ZSH="/home/erick/.oh-my-zsh"
 
-ZSH_THEME="spaceship"
-COMPLETION_WAITING_DOTS="true"
+export ZSH_THEME="spaceship"
+export COMPLETION_WAITING_DOTS="true"
+
+# Go
+export GOPATH="/home/erick/go"
+export PATH=$PATH:$GOPATH/bin
 
 plugins=(
   git 
@@ -11,7 +15,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 export EDITOR='vim'
-export PATH="$MY_INSTALL_DIR:$PATH"
+export PATH=$MY_INSTALL_DIR:$PATH
 export TERM=xterm-256color
 export FZF_DEFAULT_COMMAND='rg --files --hidden'
 
