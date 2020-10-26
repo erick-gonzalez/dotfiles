@@ -81,11 +81,6 @@ map <silent> gr <Plug>(coc-references)
 map <silent> gy <Plug>(coc-type-definition)
 map <silent> gf <Plug>(coc-fix-current)
 
-" Auto close things
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
-
 nmap <leader>rn <Plug>(coc-rename)
 
 noremap <leader>I :py3f /usr/lib/llvm-10/share/clang/clang-include-fixer.py<cr>
