@@ -3,9 +3,6 @@ export ZSH="/home/erick/.oh-my-zsh"
 export ZSH_THEME="spaceship"
 export COMPLETION_WAITING_DOTS="true"
 
-# Clang
-export PATH="/usr/lib/llvm-10/bin":$PATH
-
 # Go
 export GOPATH="/home/erick/go"
 export PATH=$PATH:$GOPATH/bin

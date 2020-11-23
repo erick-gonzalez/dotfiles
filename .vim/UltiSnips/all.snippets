@@ -4,7 +4,7 @@ if not snip.c:
 	import os
 	import getpass
 
-	start = "/home/{}/src".format(getpass.getuser())
+	start = "/home/{}/src/bet-manager/src".format(getpass.getuser())
 	relative_path = os.path.relpath(path, start)
 	result = relative_path.upper().replace("/", "_")
 	result = result.replace("-", "_")

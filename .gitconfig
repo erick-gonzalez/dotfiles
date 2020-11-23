@@ -5,6 +5,13 @@ protocol = https
 [core]
 	editor = vim 
 	pager = bat
+	compression = 9
+	packedGitLimit = 512m 
+	packedGitWindowSize = 512m
+[pack]
+	deltaCacheSize = 2047m 
+	packSizeLimit = 2047m 
+	windowMemory = 2047m
 [user]
 	email = erick.gonzal3z@gmail.com
 	name = Erick Gonzalez

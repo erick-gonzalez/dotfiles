@@ -24,7 +24,7 @@ colorscheme gruvbox
 let g:airline_theme='gruvbox'
 
 augroup autoformat_settings
-  autocmd FileType c,cpp,proto AutoFormatBuffer clang-format
+  autocmd FileType c,cpp AutoFormatBuffer clang-format
   autocmd FileType go AutoFormatBuffer gofmt
   autocmd BufWritePost CMakeLists.txt silent! !cmake-format -i <afile> 
 augroup end
