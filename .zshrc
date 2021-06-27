@@ -4,7 +4,8 @@ export ZSH_THEME="spaceship"
 export COMPLETION_WAITING_DOTS="true"
 
 # Go
-export PATH=$PATH:/usr/local/go/bin
+export PATH="$PATH:/usr/local/go/bin"
+export PATH="$PATH:$(go env GOPATH)/bin"
 
 plugins=(
   git 
